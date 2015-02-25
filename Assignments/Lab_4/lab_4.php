@@ -78,7 +78,7 @@ $form_layout = <<< EOD
 <form method="post" action="">
 Floating point number to be truncated: <input type="text" name="float_value">
 <br>Temperature in degrees Fahrenheit: <input type="text" name="degrees_f">
-<br>Legth of one side of you die: <input type="text" name="area">
+<br>Legth of one side of your die: <input type="text" name="area">
 <br>Height you fell from: <input type="text" name="height">
 <br><input type="submit" value="Calculate" name="submit">
 </form>
