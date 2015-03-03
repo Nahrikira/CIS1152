@@ -24,7 +24,11 @@ function truncateFloat($float_value)
  */
 function farenheit2Kelvin($degrees_f)
 {
+<<<<<<< HEAD
 	return ((degrees_f - 32) * 5 / 9 + 273.15);
+=======
+    echo ($degrees_f - 32) * 5 / 9 + 273.15;
+>>>>>>> upstream/master
 }
 
 /**
@@ -111,3 +115,4 @@ EOD;
 		echo $form_results;
 	}
 ?>
+
