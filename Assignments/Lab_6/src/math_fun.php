@@ -25,8 +25,7 @@ class MathFun
 {
 
     const GRAVITY = 9.8;
-
-
+	
     function truncateFloat($float_value)
     {
         return (int) floatval($float_value * 100) / 100;
@@ -53,6 +52,6 @@ class MathFun
      */
     function impactVelocity($height)
     {
-        return sqrt(2 * GRAVITY * $height);
+        return sqrt(2 * Self::GRAVITY * $height);
     }
 }
